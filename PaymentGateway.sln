@@ -1,0 +1,33 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway", "PaymentGateway\PaymentGateway.csproj", "{CAD6257F-5B52-42DE-BA91-06E01D228F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGatewayTests", "PaymentGatewayTests\PaymentGatewayTests.csproj", "{E3CE08D1-88BE-462C-A6C3-24DB51A15350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD6257F-5B52-42DE-BA91-06E01D228F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD6257F-5B52-42DE-BA91-06E01D228F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD6257F-5B52-42DE-BA91-06E01D228F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD6257F-5B52-42DE-BA91-06E01D228F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CE08D1-88BE-462C-A6C3-24DB51A15350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CE08D1-88BE-462C-A6C3-24DB51A15350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CE08D1-88BE-462C-A6C3-24DB51A15350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CE08D1-88BE-462C-A6C3-24DB51A15350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

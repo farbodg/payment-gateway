@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Models\Dto\" />
+    <Folder Include="Models\Dto\BankPayment\" />
+    <Folder Include="Models\Dto\Payment\" />
+    <Folder Include="Models\Dto\Card\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Services\Bank\" />
+    <Folder Include="Services\Card\" />
+    <Folder Include="Services\Payment\" />
+    <Folder Include="Filters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\Middleware.cs" />
+    <Compile Remove="Services\PaymentsController.cs" />
+    <Compile Remove="Models\EmptyClass.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="Models\PaymentStatus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.1.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+</Project>
